@@ -2,7 +2,7 @@
 /// Given a string s consisting of words and spaces, return the length of the last word in the string.
 /// A word is a maximal substring consisting of non-space characters only.
 /// </summary>
-public class Solution_2023_08_12
+public class Solution_0058
 {
     public static int LengthOfLastWord(string s)
     {
