@@ -10,9 +10,15 @@
 
 using System.Diagnostics;
 
-Stopwatch watch = Stopwatch.StartNew();
-Console.WriteLine(Solution_0215.FindKthLargest(new []{ 3, 2, 3, 1, 2, 4, 5, 5, 6, 7, 7, 8, 2, 3, 1, 1, 1, 10, 11, 5, 6, 2, 4, 7, 8, 5, 6 }, 20) == 2);
-watch.Stop();
-Console.WriteLine(watch.ElapsedMilliseconds);
+//Stopwatch watch = Stopwatch.StartNew();
+//Console.WriteLine(Solution_0215.FindKthLargest(new []{ 3, 2, 3, 1, 2, 4, 5, 5, 6, 7, 7, 8, 2, 3, 1, 1, 1, 10, 11, 5, 6, 2, 4, 7, 8, 5, 6 }, 20) == 2);
+//watch.Stop();
+//Console.WriteLine(watch.ElapsedMilliseconds);
+
+
+//Console.WriteLine(Solution_0168.ConvertToTitle(26) == "Z");
+//Console.WriteLine(Solution_0168.ConvertToTitle(28) == "AB");
+Console.WriteLine(Solution_0168.ConvertToTitle(52) == "AZ");
+//Console.WriteLine(Solution_0168.ConvertToTitle(701) == "ZY");
 
 Console.ReadKey();
